@@ -98,7 +98,7 @@ shinyUI(fluidPage(
     ),
   
   
-  titlePanel("Ease of Doing Business"),
+  titlePanel("EDB"),
   sidebarLayout(
     sidebarPanel(
       checkboxGroupInput("counties", "County:", county, selected=county[1:5], inline=TRUE),
