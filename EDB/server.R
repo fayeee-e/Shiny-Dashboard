@@ -3,7 +3,7 @@ library(ggplot2)
 library(DT) 
 library(DBI)
 library(RMySQL)
-con = dbConnect(MySQL(), user='sesom_2015', password='sesom_2015', db='faith', host='mtekib.cyil3u7sobwf.us-west-2.rds.amazonaws.com')
+con = dbConnect(MySQL(), user='', password='', db='faith', host='mtekib.cyil3u7sobwf.us-west-2.rds.amazonaws.com')
 query1 = 'SELECT DISTINCT county from indicators4'
 query= 'SELECT county, indicator, mark from indicators4'
 result1 = dbGetQuery(con, query1)
